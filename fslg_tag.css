@@ -1,0 +1,78 @@
+/* Basic form styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+    padding: 0;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for fieldsets */
+fieldset {
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Style for legends */
+legend {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #4caf50;
+}
+
+/* Styling for labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Styling for inputs */
+input[type="text"],
+input[type="fname"],
+input[type="date"],
+input[type="tel"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+/* Reset and Submit buttons */
+input[type="reset"],
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Add spacing between form elements */
+br {
+    line-height: 1.5;
+}

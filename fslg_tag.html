@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset & Legend tags</title>
+    <link rel="stylesheet" href="fslg_tag.css">
+</head>
+<body>
+    <form action="_self" method="get" >
+        <fieldset name="personalDetails">
+            <legend>personalDetails</legend>
+            <label for="fname">First Name : </label>
+            <input type="fname" name="" id="" value="Sadu" required>
+            <br><br>
+            <label for="lname">Last name : </label>
+            <input type="text" name="" id="" required>
+            <br><br>
+            <label for="dob">DOB : </label>
+            <input type="date" name="" id="" min="2005-01-01" max="2024-01-01" required>
+            <br><br>
+            <label for="phone">Phone Number : </label>
+            <input type="tel" name="" id="" value="+91 1234567890" required>
+        </fieldset>
+        <br><br>
+        <fieldset name="education">
+            <legend>education details</legend>
+            <label for="class11">Class 11 Marks : </label>
+            <input type="number" name="" id="" required>
+            <br><br>
+            <label for="class12">Class 12 Marks : </label>
+            <input type="number" name="" id="" required>
+            <br><br>
+            <label for="btect">B.tech CGPA : </label>
+            <input type="number" name="" id="" required>
+        </fieldset>
+        <br><br>
+        <input type="reset" name="" id="">
+        <input type="submit" name="" id="">
+    </form>
+</body>
+</html>
