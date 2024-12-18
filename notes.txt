@@ -1,0 +1,71 @@
+> CSS controls a documnet's appearance and specifies style rules for the following web page elements :
+    
+    fonts, text, colors, backgrounds, sizes, borders, spacing, positioning, visual effects.
+
+> CSS can be applied to html by using : 
+       . tags eg : body, h1, p, form, input, etc..
+       . class reference eg: using class name
+       . Id reference eg : using id name
+       . universal selector eg : *{} symbol used to apply css to every element in body and including head
+
+> Basic styles for Body :
+   body{
+    background-color : #EEEEEE;
+    color : #000000;
+    margin : 0;
+    padding : 0;
+    text-align : left;
+    font-size : 100%
+    font-family : sans-serif;
+   }
+
+> . Colors use red-green-blue(RGB) hexadecimal; light values
+  . Size use pixels, em, or a percentage
+  . Text can be aligned left, right, or center
+  . Floats can also be left or right
+  . Vertical alignments must be top, middle, or bottom
+  . Fonts can be any specific font or font familt, such as serif, sans-serif, or monospace or even downlodable font
+
+> In a fluid layout :
+    . The height and width of elements are flexible
+    . The expansion or contraction is based on screen sixe
+    . The elemetns are specified using percentages and ems
+
+> In a fixed layout :
+    . You specify the height and width of elements
+    . Values remain the same regardless of screen size
+    . You specify elements using pixels
+
+> The type of layout should depend on the type and amount of content and the target audience
+
+> CSS can be applied in three ways :
+    . Inline css eg : used for single html element
+    . Internal css eg : used for a single page, And also it increses the load time
+    . External css eg : used to style entire website, can be linked to from other pages, add a <link> tag to the <head> tag
+
+> Priority : Inline > Internal > External
+
+> SELECTORS :
+     . CSS selectors are patterns used to select and style html elements
+     . They define the relationship b/w html elements and the styles applied to them
+     . Types : Tags, Id (use # to select), Class(use . to select), universal selector(* used to select)
+
+> CSS FRAMEWORKS :
+    . vanilla / Plain Css (Normal css)
+    . Utility framework ( eg : Tailwind css )
+    . component framework ( eg : bootstrap )
+    . eg : vanilla/plain css :
+           a{
+              color : red;
+              text-decoration : underline;
+           }
+
+           a: hover {
+            color : rgb(185, 28, 28);
+           }
+
+           Tailwind css :
+           <a href="..." class="underline text-red-500 hover : text-red=800"> Dangerous Link </a>
+
+           Bootstrap : 
+           <a href="..." class="link-dangerous"> Dangerous Link </a>
