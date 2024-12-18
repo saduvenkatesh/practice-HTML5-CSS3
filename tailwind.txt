@@ -1,0 +1,22 @@
+Key Tailwind Classes Used
+flex and flex-col
+
+flex: Activates flexbox layout, allowing easy alignment and distribution of child elements(the elements inside it) along a row or column.
+flex-col: By default, arranges child elements vertically in a column layout, stacking them one below the other.
+md:flex-row
+
+md:: A responsive prefix that targets medium screens (768px and larger).
+flex-row: Changes the flex container's layout from a column to a row on medium and larger screens, arranging child elements horizontally side by side.
+w-full and md:w-1/4
+
+w-full: Sets the element's width to 100% of its parent container, making it full width on small screens.
+md:w-1/4: On medium and larger screens, sets the element’s width to 25% of the container, making it more compact and allowing for a horizontal layout.
+p-4
+
+p-4: Adds padding of 1rem (16px) to all sides of the element, providing consistent spacing around the content and improving visual appeal.
+min-h-screen
+
+Ensures the element's height is at least as tall as the viewport height, so the layout fills the screen even if the content inside is minimal.
+bg-*
+
+bg-* classes are used to set background colors, like bg-gray-100, which help distinguish different sections and improve the overall visual clarity of the layout.

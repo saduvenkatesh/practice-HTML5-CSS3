@@ -1,0 +1,22 @@
+Key Bootstrap Classes Used
+navbar, navbar-expand-lg
+
+navbar: Creates a navigation bar with built-in features like text alignment, background color, and drop-down menu support.
+navbar-expand-lg: Makes the navigation bar expand horizontally on large screens. On smaller screens, it collapses into a hamburger menu (three horizontal lines) that reveals the menu when clicked.
+Together: The combination of navbar and navbar-expand-lg creates a responsive navigation bar that adapts to different screen sizes, expanding on large screens and collapsing on smaller ones.
+col-* Classes
+
+col-12: In Bootstrap's grid system, col-12 makes the element take up 100% width on extra small and small screens, stacking elements vertically on mobile devices.
+col-md-3: For medium screens (768px and larger), col-md-3 sets the element's width to 25%, allowing it to sit next to other elements in a horizontal layout.
+col-md-6: On medium and larger screens, col-md-6 makes the element take up 50% width, ensuring a balanced layout.
+Together: Combining col-12 for small screens and col-md-* for medium and larger screens ensures a responsive layout that adjusts dynamically.
+p-3
+
+p-3: Adds 1rem (16px) of padding to all sides of an element, ensuring there’s space inside, preventing content from touching the edges, and improving the layout’s visual appeal.
+bg-danger, bg-primary, bg-warning, bg-success
+
+bg-*: These classes apply specific background colors to elements, helping distinguish sections and enhancing visual clarity.
+navbar-toggler, navbar-toggler-icon
+
+navbar-toggler: A button used to toggle the visibility of menu items in the navigation bar on smaller screens, showing or hiding the links.
+navbar-toggler-icon: Displays the “hamburger menu” icon (three horizontal lines) inside the button, indicating the collapsible menu.
