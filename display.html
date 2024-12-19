@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Display</title>
+    <style>
+        body{
+            background: papayawhip;
+            font-family:'Times New Roman', Times, serif;
+        }
+        h1{
+            background: #000;
+            color: white;
+        }
+
+        .ex1 p{
+            display: block;
+            background-color: aqua;
+            padding: 10px;
+            margin-bottom: 10px;
+            
+        }
+
+        .ex2 p{
+            display: inline-block;
+            background-color: red;
+            padding:20px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+        .ex3 {
+            display: flex;
+            justify-content:center;
+            flex-direction: row;
+            gap: 10px;
+        }
+        .ex3 p {
+            background-color: lightgreen;
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DISPLAY PROPERTIES</h1>
+    </header>
+    <main>
+        
+        <section class="ex1">
+            <h2>example 1</h2>
+            <p>word1</p>
+            <p>word2</p>
+            <p>word3</p>
+        </section>
+        <section class="ex2">
+            <h2>example 2</h2>
+            <p>word1</p>
+            <p>word2</p>
+            <p>word3</p>
+            <p>word4</p>
+            <p>word5</p>
+            <p>word6</p>
+        </section>
+        <section class="ex3">
+            <h2>example 3</h2>
+            <p>word1</p>
+            <p>word2</p>
+            <p>word3</p>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

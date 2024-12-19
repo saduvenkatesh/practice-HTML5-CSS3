@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section, Article, and Aside Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction:column;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+
+        main {
+            flex: 3;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        aside {
+            flex: 1;
+            padding: 20px;
+            background-color: #e0e0e0;
+            border-left: 2px solid #ccc;
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f0f8ff;
+            border: 1px solid #99caff;
+            border-radius: 5px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        a {
+            display: block;
+            color: #007BFF;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our Blog</h1>
+    </header>
+
+    <div class="container">
+        <main>
+            <!-- Section 1 -->
+            <section>
+                <h2>About Organic Farming</h2>
+                <p>Organic farming is a method of agriculture that relies on natural processes and materials to grow crops and raise livestock.</p>
+            </section>
+
+            <!-- Section 2 with Articles -->
+            <section>
+                <h2>Latest Articles</h2>
+
+                <article>
+                    <h3>The Benefits of Organic Vegetables</h3>
+                    <p>Organic vegetables are grown without synthetic pesticides, making them healthier for you and the environment.</p>
+                </article>
+
+                <article>
+                    <h3>How to Start an Organic Garden</h3>
+                    <p>Starting an organic garden is easy and rewarding. Learn how to prepare the soil and choose the right plants.</p>
+                </article>
+            </section>
+        </main>
+
+        <!-- Sidebar -->
+        <aside>
+            <h2>Related Topics</h2>
+            <a href="#">Top 10 Organic Farming Tips</a>
+            <a href="#">Composting for Beginners</a>
+            <a href="#">Natural Pest Control Methods</a>
+
+            <h2>Resources</h2>
+            <a href="#">Organic Certification Guidelines</a>
+            <a href="#">List of Organic Fertilizers</a>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Organic Farming Blog</p>
+    </footer>
+
+</body>
+</html>

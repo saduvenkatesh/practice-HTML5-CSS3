@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property Examples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin-top: 40px;
+        }
+
+        /* Block Example */
+        .block-example div {
+            display: block;
+            background-color: lightblue;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Inline-Block Example */
+        .inline-block-example div {
+            display: inline-block;
+            background-color: lightcoral;
+            padding: 10px;
+            margin: 5px;
+            width: 100px;
+            text-align: center;
+        }
+
+        /* Flex Example */
+        .flex-example {
+            display: flex;
+            justify-content:center;
+            flex-direction: row;
+            gap: 10px;
+        }
+        .flex-example div {
+            background-color: lightgreen;
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+        }
+
+        /* Grid Example */
+        .grid-example {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 10px;
+        }
+        .grid-example div {
+            background-color: lightgoldenrodyellow;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* None Example */
+        .none-example div {
+            background-color: lightgray;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Examples of Different Display Properties</h1>
+
+    <!-- Block Example -->
+    <h2>1. display: block</h2>
+    <div class="block-example">
+        <div>Block Item 1</div>
+        <div>Block Item 2</div>
+        <div>Block Item 3</div>
+    </div>
+
+    <!-- Inline-Block Example -->
+    <h2>2. display: inline-block</h2>
+    <div class="inline-block-example">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+    </div>
+
+    <!-- Flex Example -->
+    <h2>3. display: flex</h2>
+    <div class="flex-example">
+        <div>Flex Item 1</div>
+        <div>Flex Item 2</div>
+        <div>Flex Item 3</div>
+    </div>
+
+    <!-- Grid Example -->
+    <h2>4. display: grid</h2>
+    <div class="grid-example">
+        <div>Grid Item 1</div>
+        <div>Grid Item 2</div>
+        <div>Grid Item 3</div>
+        <div>Grid Item 4</div>
+    </div>
+
+    <!-- None Example -->
+    <h2>5. display: none</h2>
+    <div class="none-example">
+        <div>Visible Item</div>
+        <div class="hidden">This item is hidden</div>
+        <div>Another Visible Item</div>
+    </div>
+
+</body>
+</html>
